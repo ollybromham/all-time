@@ -1,0 +1,37 @@
+@font-face {
+  font-family: 'mono';
+  src: url(../assets/CutiveMono-Regular.ttf);
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: 'mono', monospace;
+  -webkit-font-smoothing: antialiased;
+}
+
+.app {
+  padding: 0.5rem;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+div {
+  font-size: 1.8vw;
+  width: calc(100vw / 16);
+  padding: 0.25rem 0;
+  text-align: center;
+}
+
+@media (max-width: 500px){
+  div{
+    font-size: 3.6vw;
+    width: calc(100vw / 8);
+  }
+}
