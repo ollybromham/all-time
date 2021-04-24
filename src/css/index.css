@@ -23,15 +23,22 @@ body{
 }
 
 div {
-  font-size: 1.8vw;
-  width: calc(100vw / 16);
+  font-size: 1.2vw;
+  width: calc(100vw / 25);
   padding: 0.25rem 0;
   text-align: center;
+}
+
+@media (max-width: 1000px){
+  div{
+    font-size: 1.8vw;
+    width: calc(100vw / 16);
+  }
 }
 
 @media (max-width: 500px){
   div{
     font-size: 3.6vw;
-    width: calc(100vw / 8);
+    width: calc(100vw / 9);
   }
 }
